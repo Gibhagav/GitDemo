@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 137.343 s <<< FAILURE! - in TestSuite
+basePageNavigation(PageObjectModel.ValidateTitle)  Time elapsed: 1.03 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...> but was:<...123>
+	at PageObjectModel.ValidateTitle.basePageNavigation(ValidateTitle.java:37)
+

@@ -1,0 +1,4 @@
+# Created at 2019-05-26T05:56:11.717
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Girija_Interview\EndtoEnd_POM_Project\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

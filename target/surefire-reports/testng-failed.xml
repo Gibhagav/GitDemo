@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="PageObjectModel.Listeners"/>
+    <listener class-name="PageObjectModel.ExtentReportsListeners"/>
+  </listeners>
+  <test name="Validating title in the Page(failed)">
+    <classes>
+      <class name="PageObjectModel.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PageObjectModel.ValidateTitle -->
+      <class name="PageObjectModel.HomePageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PageObjectModel.HomePageTest -->
+      <class name="PageObjectModel.ValidateNavigationBar">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PageObjectModel.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validating title in the Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
